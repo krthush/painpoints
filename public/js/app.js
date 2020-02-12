@@ -37373,7 +37373,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("footer", { staticClass: "custom-footer" }, [
       _c("p", [
-        _vm._v(" Problems and Solutions page built for emit by "),
+        _vm._v(" Problems and Solutions/Ideas page built by "),
         _c("a", { attrs: { href: "https://github.com/krthush" } }, [
           _vm._v("Thush")
         ]),
