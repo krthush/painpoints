@@ -16,8 +16,54 @@
 
 <script>
     export default {
+
+        props: {
+            'objectProp' : { 
+                type : Object,
+                default: null
+            },
+        },
+
+        data: function() {
+            return {
+                object : null, // null initially
+                boolean : false, // false initially
+                string : '', // empty initially
+                array : [], // empty initially
+            }
+        },
+
+        created () {
+
+        },
+
+      
         mounted() {
             console.log('Component mounted.')
-        }
-    }
+        },
+
+        methods: {
+
+            sampleMethod : function () {
+
+            },
+
+        },
+
+        computed: {
+
+            sampleComputedData : function () {
+
+                var sampleComputedData = null;
+
+                return sampleComputedData;
+            },
+
+        },
+      
+    };
 </script>
+
+<style>
+    
+</style>

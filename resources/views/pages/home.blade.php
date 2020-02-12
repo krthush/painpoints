@@ -3,6 +3,26 @@
 @section('content')
 
 <div class="row">
+
+  <posts 
+    :label="posts.label" 
+    :nodes="posts.nodes"
+    :depth="0"
+  ></posts>
+	
+</div>
+
+<div class="row">
+
+	<div class="col-md-12">
+
+		<post-form></post-form>
+		
+	</div>
+	
+</div>
+
+<div class="row">
     <div class="col-md-8 blog-main">
       <h3 class="pb-3 mb-4 font-italic border-bottom">
         From the Firehose
@@ -39,6 +59,9 @@
           <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
         </ol>
         <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+
+		<post-count></post-count>
+
       </div><!-- /.blog-post -->
 
       <div class="blog-post">
