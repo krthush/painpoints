@@ -4,21 +4,25 @@
 
 <div class="row">
 
-  <posts 
-    :label="posts.label" 
-    :nodes="posts.nodes"
-    :depth="0"
-  ></posts>
-	
-</div>
+	<p class="mx-4">This blog post shows a few different types of content that's supported and styled with Bootstrap. </p>
 
-<div class="row">
+	<post-form
+		class="mx-4"
+		:show-form-text="'Add New Problem'"
+		:label-form-text="'Add New Problem'"
+		:submit-form-text="'Add Problem'"
+	></post-form>
 
-	<div class="col-md-12">
+	<h3 class="mx-4 pb-3 mb-4">
+        Problems:
+     </h3>
 
-		<post-form></post-form>
-		
-	</div>
+	<post
+		class="mx-4" 
+	    :content="posts.content" 
+	    :children="posts.children"
+	    :depth="0"
+	></post>
 	
 </div>
 
@@ -59,8 +63,6 @@
           <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
         </ol>
         <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-
-		<post-count></post-count>
 
       </div><!-- /.blog-post -->
 

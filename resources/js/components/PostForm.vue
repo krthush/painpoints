@@ -1,6 +1,6 @@
 <template>
-  <div class="my-4">
-    <a v-if="!showForm" v-on:click="showForm = true" href="#" class="float-right">{{ showFormText }}</a>
+  <div class="pb-4 w-100 mx-2">
+    <button v-if="!showForm" v-on:click="showForm = true" href="#" class="link-button float-right">{{ showFormText }}</button>
     <transition 
       name="slide"
     >
@@ -9,7 +9,7 @@
         <textarea class="form-control" placeholder="Enter text here..." rows="2"></textarea>
         <div class="mt-2 float-right">
           <button v-on:click="showForm = false" type="button" class="btn btn-outline-secondary">Cancel</button>
-          <button type="button" class="btn btn-outline-primary">Add Post</button>  
+          <button type="button" class="btn btn-outline-primary">{{ submitFormText }}</button>  
         </div>
       </div>
     </transition>   
@@ -30,41 +30,16 @@
               type : String,
               default: 'Add Post'
           },
+          'submitFormText' : { 
+              type : String,
+              default: 'Add Post'
+          },
         },
 
         data: function() {
             return {
                 showForm : false, // false initially
-                count : 0
             }
-        },
-
-        created () {
-
-        },
-
-      
-        mounted() {
-            console.log('Component mounted.')
-        },
-
-        methods: {
-
-            sampleMethod : function () {
-
-            },
-
-        },
-
-        computed: {
-
-            sampleComputedData : function () {
-
-                var sampleComputedData = null;
-
-                return sampleComputedData;
-            },
-
         },
       
     };

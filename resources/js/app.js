@@ -35,26 +35,26 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
 
 /* Example post data */
 let posts = {
-  label: 'root',
-  nodes: [
+  content: 'root',
+  children: [
     {
-      label: 'item1',
-      nodes: [
+      content: 'item1',
+      children: [
         {
-          label: 'item1.1'
+          content: 'item1.1'
         },
         {
-          label: 'item1.2',
-          nodes: [
+          content: 'item1.2',
+          children: [
             {
-              label: 'item1.2.1'
+              content: 'item1.2.1'
             }
           ]
         }
       ]
     }, 
     {
-      label: 'item2'  
+      content: 'item2'  
     }
   ]
 }

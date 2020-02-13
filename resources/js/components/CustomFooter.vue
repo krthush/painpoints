@@ -14,3 +14,16 @@
         }
     }
 </script>
+
+<style>
+  .custom-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f6f6f6;
+    border-top: .05rem solid #e5e5e5;
+  }
+  .custom-footer p:last-child {
+    margin-bottom: 0;
+  }
+</style>

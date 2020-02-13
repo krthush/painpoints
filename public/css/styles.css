@@ -117,16 +117,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #999;
 }
 
-/*
- * Footer
- */
-.custom-footer {
-  padding: 2.5rem 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
+/* Style <button> as <a> links */
+.link-button {
+  background: none;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  /*optional*/
+  color: #3490dc;
+  text-decoration: none;
 }
-.custom-footer p:last-child {
-  margin-bottom: 0;
+
+.link-button:hover {
+  /*optional*/
+  color: #1d68a7;
+  text-decoration: underline;
 }
