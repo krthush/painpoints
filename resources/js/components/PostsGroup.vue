@@ -20,8 +20,11 @@
         </transition>   
       </div>
 
-      <h3 class="pb-3 mb-4" style="text-transform: capitalize;">
-        {{postsType}}s:
+      <h3 v-if="postsType=='problem'" class="pb-3 mb-4" style="text-transform: capitalize;">
+        Problems:
+      </h3>
+      <h3 v-else class="pb-3 mb-4" style="text-transform: capitalize;">
+        Solutions/Ideas:
       </h3>
 
       <post
