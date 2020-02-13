@@ -4,9 +4,9 @@
 
 <div class="row">
 
-	<div class="col text-center" style="min-height: 74vh;">
+	<div class="col text-center">
 
-		<p class="container" style="white-space: pre;">
+		<p class="container" style="white-space: pre-line;">
 
 			A reddit style website for pain points (problems that are frequent and intense) and ideas for startups.
 

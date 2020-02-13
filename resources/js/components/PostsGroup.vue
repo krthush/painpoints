@@ -2,7 +2,7 @@
   
   <div class="row">
 
-    <div class="col" style="min-height: 70vh;">
+    <div class="col">
 
       <div class="pb-4 w-100">
         <button v-if="!showForm" v-on:click="showForm = true" href="#" class="link-button float-right">{{ showFormText }}</button>
@@ -27,7 +27,7 @@
         Solutions/Ideas:
       </h3>
 
-      <post
+      <!-- <post
         v-for="post in posts"
         :content="post.content" 
         :children="post.children"
@@ -35,7 +35,7 @@
         :id="post.id"
         :popularity="post.popularity"
         v-bind:key="post.id"
-      ></post>
+      ></post> -->
 
     </div>
 

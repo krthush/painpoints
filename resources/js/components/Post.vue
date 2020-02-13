@@ -2,7 +2,7 @@
   <div class="w-100">
     <div :style="indent">
       <section class="px-2 py-2" style="background-color:#f6f6f6;">
-        <p style="white-space: pre;">{{ content }}</p>
+        <p style="white-space: pre-line;">{{ content }}</p>
         <div class="row">
           <div v-if="!showForm" class="ml-3 my-auto">
             Popularity: {{ postPopularity }}

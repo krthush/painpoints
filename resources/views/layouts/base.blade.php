@@ -27,7 +27,7 @@
 
         <nav-bar></nav-bar>
 
-        <main role="main" class="container">
+        <main role="main" class="container main-content">
 
             @yield('content')
             

@@ -9,6 +9,7 @@
 
 <style>
   .custom-footer {
+    height: 200px;
     padding: 2.5rem 0;
     color: #999;
     text-align: center;

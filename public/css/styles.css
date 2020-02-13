@@ -137,3 +137,8 @@ h1, h2, h3, h4, h5, h6 {
 .link-button:focus {
     outline: 0 !important;
 }
+
+/* Footer Adjustment */
+.main-content {
+  min-height: calc(100vh - 300px);
+}
