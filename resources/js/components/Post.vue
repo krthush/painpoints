@@ -7,14 +7,14 @@
           <div v-if="!showForm" class="ml-3 my-auto">
             Popularity: {{ popularity }}
           </div>
-          <div v-if="!showForm" style="width: 25px;">
-            <vue-star animate="animated heartBeat" color="#3490dc">
-              <a @click="popularity++" slot="icon" class="fas fa-arrow-up" style="color: #3490dc"></a>
+          <div v-if="!showForm" style="width: 30px;">
+            <vue-star animate="animated heartBeat" color="#F05654">
+              <a @click="popularity++" slot="icon" class="fas fa-heart" style="color: #F05654"></a>
             </vue-star>
           </div>
-          <div v-if="!showForm" style="width: 25px;">
-            <vue-star animate="animated heartBeat" color="#F05654">
-              <a @click="popularity--" slot="icon" class="fas fa-arrow-down" style="color: #F05654"></a>
+          <div v-if="!showForm" style="width: 30px;">
+            <vue-star animate="animated swing" color="#3490DC">
+              <a @click="popularity--" slot="icon" class="fas fa-heart-broken" style="color: #3490dc"></a>
             </vue-star>
           </div>
           <button v-if="!showForm" v-on:click="showForm = true" href="#" class="link-button float-right ml-auto mr-3">{{ showFormText }}</button>

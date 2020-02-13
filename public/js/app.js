@@ -38521,20 +38521,20 @@ var render = function() {
                 !_vm.showForm
                   ? _c(
                       "div",
-                      { staticStyle: { width: "25px" } },
+                      { staticStyle: { width: "30px" } },
                       [
                         _c(
                           "vue-star",
                           {
                             attrs: {
                               animate: "animated heartBeat",
-                              color: "#3490dc"
+                              color: "#F05654"
                             }
                           },
                           [
                             _c("a", {
-                              staticClass: "fas fa-arrow-up",
-                              staticStyle: { color: "#3490dc" },
+                              staticClass: "fas fa-heart",
+                              staticStyle: { color: "#F05654" },
                               attrs: { slot: "icon" },
                               on: {
                                 click: function($event) {
@@ -38553,20 +38553,20 @@ var render = function() {
                 !_vm.showForm
                   ? _c(
                       "div",
-                      { staticStyle: { width: "25px" } },
+                      { staticStyle: { width: "30px" } },
                       [
                         _c(
                           "vue-star",
                           {
                             attrs: {
-                              animate: "animated heartBeat",
-                              color: "#F05654"
+                              animate: "animated swing",
+                              color: "#3490DC"
                             }
                           },
                           [
                             _c("a", {
-                              staticClass: "fas fa-arrow-down",
-                              staticStyle: { color: "#F05654" },
+                              staticClass: "fas fa-heart-broken",
+                              staticStyle: { color: "#3490dc" },
                               attrs: { slot: "icon" },
                               on: {
                                 click: function($event) {
