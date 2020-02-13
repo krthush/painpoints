@@ -112,6 +112,7 @@
           .then((response) => {
             if (response.data.success == true) {
               this.showForm = false;
+              this.formContent = '';
             }
             this.postChildren.unshift(response.data.post);
             console.log(response);

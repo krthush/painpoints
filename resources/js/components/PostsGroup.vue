@@ -2,7 +2,7 @@
   
   <div class="row">
 
-    <div class="col" style="min-height: 74vh;">
+    <div class="col" style="min-height: 70vh;">
 
       <div class="pb-4 w-100">
         <button v-if="!showForm" v-on:click="showForm = true" href="#" class="link-button float-right">{{ showFormText }}</button>
@@ -92,6 +92,7 @@
               .then((response) => {
                 if (response.data.success == true) {
                   this.showForm = false;
+                  this.formContent = '';
                 }
                 this.posts.unshift(response.data.post);
                 console.log(response);
