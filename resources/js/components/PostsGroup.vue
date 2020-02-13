@@ -27,7 +27,7 @@
         Solutions/Ideas:
       </h3>
 
-      <!-- <post
+      <post
         v-for="post in posts"
         :content="post.content" 
         :children="post.children"
@@ -35,7 +35,7 @@
         :id="post.id"
         :popularity="post.popularity"
         v-bind:key="post.id"
-      ></post> -->
+      ></post>
 
     </div>
 
