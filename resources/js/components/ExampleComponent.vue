@@ -33,6 +33,17 @@
             }
         },
 
+        computed: {
+
+            sampleComputedData : function () {
+
+                var sampleComputedData = null;
+
+                return sampleComputedData;
+            },
+
+        },
+
         created () {
 
         },
@@ -46,17 +57,6 @@
 
             sampleMethod : function () {
 
-            },
-
-        },
-
-        computed: {
-
-            sampleComputedData : function () {
-
-                var sampleComputedData = null;
-
-                return sampleComputedData;
             },
 
         },

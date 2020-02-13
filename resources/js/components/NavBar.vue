@@ -7,20 +7,12 @@
         </div>
         <div class="col-md-8 d-flex justify-content-end align-items-center">
           <nav class="nav d-flex justify-content-between">
-            <a class="p-2 text-muted" href="#">Problems</a>
-            <a class="p-2 text-muted" href="#">Solutions/Ideas</a>
-            <a class="p-2 text-muted" href="#">About</a>
+            <a class="p-2 text-muted" href="/problems">Problems</a>
+            <a class="p-2 text-muted" href="/answers">Solutions/Ideas</a>
+            <a class="p-2 text-muted" href="/about">About</a>
           </nav>
         </div>
       </div>
     </header>
   </div>
 </template>
-
-<script>
-    export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
-    }
-</script>

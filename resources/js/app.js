@@ -10,7 +10,6 @@ window.Vue = require('vue');
 
 import "animate.css";
 
-import Vue from 'vue';
 import VueStar from 'vue-star';
 Vue.component('VueStar', VueStar);
 
@@ -33,35 +32,6 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-/* Example post data */
-let posts = {
-  content: 'root',
-  children: [
-    {
-      content: 'item1',
-      children: [
-        {
-          content: 'item1.1'
-        },
-        {
-          content: 'item1.2',
-          children: [
-            {
-              content: 'item1.2.1'
-            }
-          ]
-        }
-      ]
-    }, 
-    {
-      content: 'item2'  
-    }
-  ]
-}
-
 const app = new Vue({
-	data: {
-	    posts
-	},
     el: '#app',
 });

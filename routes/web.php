@@ -11,8 +11,20 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
+/* Problem routes */
+Route::get('/', 'PostController@showProblems')->name('show-problems'); // Shows problems
+Route::get('/problems', 'PostController@showProblems')->name('show-problems'); // Shows problems
+
+/* Ideas/Solutions routes */
+Route::get('/answers', 'PostController@showAnswers')->name('show-answers'); // Shows answers
+
+/* General post model routes */
+Route::post('/create-post', 'PostController@createPost')->name('create-post'); // Create a root post
+Route::post('/add-comment', 'PostController@addComment')->name('add-comment'); // Add a comment (non-root post)
+Route::post('/update-popularity', 'PostController@updatePopularity')->name('update-popularity'); // Update Popularity
+
+Route::get('/about', function () {
+    return view('pages.about');
 });
 
 Route::get('/welcome', function () {

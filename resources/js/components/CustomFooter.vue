@@ -7,14 +7,6 @@
     </footer>
 </template>
 
-<script>
-    export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
-    }
-</script>
-
 <style>
   .custom-footer {
     padding: 2.5rem 0;
