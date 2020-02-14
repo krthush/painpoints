@@ -24,7 +24,7 @@
         Problems:
       </h3>
       <h3 v-else class="pb-3 mb-4" style="text-transform: capitalize;">
-        Solutions/Ideas:
+        Ideas:
       </h3>
 
       <post

@@ -55,11 +55,11 @@ class PostController extends Controller
     	}
 
     	/* View page variables */
-    	$pageIntroText = "This is NOT good practice for founding startups, but if you do have any cool solutions/ideas feel free to put them here!";
+    	$pageIntroText = "This is NOT good practice for founding startups, but if you do have any cool ideas feel free to put them here!";
     	$postsType = 'answer';
-	    $showFormText='Post a new solution or idea';
-	    $labelFormText='Post a new solution or idea';
-	    $submitFormText='Post Solution/Idea';
+	    $showFormText='Post a idea';
+	    $labelFormText='Post a idea';
+	    $submitFormText='Post Idea';
 
     	return view(
             'pages.home',
