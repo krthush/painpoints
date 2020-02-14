@@ -22,11 +22,11 @@ class PostController extends Controller
     	}
 
     	/* View page variables */
-    	$pageIntroText = "Add any problems you have below. Better problems are ones that are FREQUENT as well as INTENSE - i.e. pain points!";
+    	$pageIntroText = "Post any problems you have below. Better problems are ones that are FREQUENT as well as INTENSE - i.e. pain points!";
     	$postsType = 'problem';
-	    $showFormText='Add New Problem';
-	    $labelFormText='Add New Problem';
-	    $submitFormText='Add Problem';
+	    $showFormText='Post a new problem';
+	    $labelFormText='Post a new problem';
+	    $submitFormText='Post Problem';
 
     	return view(
             'pages.home',
@@ -57,9 +57,9 @@ class PostController extends Controller
     	/* View page variables */
     	$pageIntroText = "This is NOT good practice for founding startups, but if you do have any cool solutions/ideas... put them here!";
     	$postsType = 'answer';
-	    $showFormText='Add New Answer';
-	    $labelFormText='Add New Answer';
-	    $submitFormText='Add Answer';
+	    $showFormText='Post a new solution or idea';
+	    $labelFormText='Post a new solution or idea';
+	    $submitFormText='Post Solution/Idea';
 
     	return view(
             'pages.home',
