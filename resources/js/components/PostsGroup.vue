@@ -13,7 +13,7 @@
             <label for="exampleFormControlTextarea1">{{ labelFormText }}</label>
             <textarea class="form-control autoExpand" placeholder="Enter text here..." rows="2" v-model="formContent"></textarea>
             <div class="mt-2 float-right">
-              <button v-on:click="showForm = false" type="button" class="btn btn-outline-secondary">Cancel</button>
+              <button v-on:click="hideForm()" type="button" class="btn btn-outline-secondary">Cancel</button>
               <button v-on:click="submitForm()" type="button" class="btn btn-outline-primary">{{ submitFormText }}</button>
             </div>
           </div>
@@ -80,32 +80,39 @@
 
       methods: {
 
-          submitForm : function () {
+        hideForm : function () {
 
-            if (this.formContent) {
+          this.showForm = false;
+          this.formContent = '';
 
-              axios({
-                method: 'post',
-                url: '/create-post',
-                data: {
-                  type: this.postsType,
-                  content: this.formContent
-                }
-              })
-              .then((response) => {
-                if (response.data.success == true) {
-                  this.showForm = false;
-                  this.formContent = '';
-                }
-                this.posts.unshift(response.data.post);
-                console.log(response);
-              });
+        },
 
-            } else {
-              alert('Some content is required to create a post!');
-            }
+        submitForm : function () {
 
-          },
+          if (this.formContent) {
+
+            axios({
+              method: 'post',
+              url: '/create-post',
+              data: {
+                type: this.postsType,
+                content: this.formContent
+              }
+            })
+            .then((response) => {
+              if (response.data.success == true) {
+                this.showForm = false;
+                this.formContent = '';
+              }
+              this.posts.unshift(response.data.post);
+              console.log(response);
+            });
+
+          } else {
+            alert('Some content is required to create a post!');
+          }
+
+        },
 
       },
     

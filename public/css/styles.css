@@ -142,3 +142,10 @@ h1, h2, h3, h4, h5, h6 {
 .main-content {
   min-height: calc(100vh - 300px);
 }
+
+/* Allows for text area to auto adjust */
+textarea{  
+  display: block;
+  box-sizing: padding-box;
+  overflow: hidden;
+}

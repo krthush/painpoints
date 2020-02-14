@@ -39,7 +39,7 @@ const app = new Vue({
 /* Global JS snippets */
 
 // Applied globally on all textareas with the "autoExpand" class
-$(document).one('focus.autoExpand', 'textarea.autoExpand', function(){
+$(document).on('focus.autoExpand', 'textarea.autoExpand', function(){
     var savedValue = this.value;
     this.value = '';
     this.baseScrollHeight = this.scrollHeight;
