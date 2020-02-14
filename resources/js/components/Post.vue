@@ -23,7 +23,7 @@
           >
             <div v-if="showForm" class="w-100 mx-4 form-group">
               <label for="exampleFormControlTextarea1">{{ labelFormText }}</label>
-              <textarea class="form-control" placeholder="Enter text here..." rows="2" v-model="formContent"></textarea>
+              <textarea class="form-control autoExpand" placeholder="Enter text here..." rows="2" v-model="formContent"></textarea>
               <div class="mt-2 float-right">
                 <button v-on:click="showForm = false" type="button" class="btn btn-outline-secondary">Cancel</button>
                 <button v-on:click="submitForm()" type="button" class="btn btn-outline-primary">{{ submitFormText }}</button>
