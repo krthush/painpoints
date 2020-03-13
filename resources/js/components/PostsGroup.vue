@@ -29,7 +29,8 @@
 
       <post
         v-for="post in posts"
-        :content="post.content" 
+        :content="post.content"
+        :created_at="post.created_at"
         :children="post.children"
         :depth="0"
         :id="post.id"

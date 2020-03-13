@@ -17,6 +17,9 @@
               <a @click="decrementPopularity()" slot="icon" class="fas fa-heart-broken" style="color: #3490dc"></a>
             </vue-star>
           </div>
+          <div class="mx-4 my-auto">
+            <small><i>{{ created_at }}</i></small>
+          </div>
           <button v-if="!showForm" v-on:click="showForm = true" href="#" class="link-button float-right ml-auto mr-3">{{ showFormText }}</button>
           <transition 
             name="slide"
@@ -38,6 +41,7 @@
       v-for="child in postChildren" 
       :children="child.children" 
       :content="child.content"
+      :created_at="child.created_at"
       :depth="depth + 1"
       :id="child.id"
       v-bind:popularity="child.popularity"
@@ -53,7 +57,6 @@
 
   export default {
 
-    props: [ 'content', 'children', 'depth' ],
 
     props: {
         'content' : { 
@@ -71,6 +74,9 @@
         'popularity' : { 
             type : Number
         },
+        'created_at' : {
+            type : String
+        }
     },
 
     data: function() {
