@@ -6,7 +6,7 @@
 
 	<div class="col">
 
-		<p>{{ $pageIntroText }}</p>
+		<p>{!! $pageIntroText !!}</p>
 		
 	</div>
 	
