@@ -55,7 +55,7 @@ class PostController extends Controller
     	}
 
     	/* View page variables */
-    	$pageIntroText = "This is NOT good practice for founding startups, but if you do have any cool ideas feel free to put them here!";
+    	$pageIntroText = "This is NOT good practice (see http://paulgraham.com/startupideas.html), but if you do have any cool ideas feel free to put them here!";
     	$postsType = 'answer';
 	    $showFormText='Post a new idea';
 	    $labelFormText='Post a new idea';
