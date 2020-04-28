@@ -17,7 +17,7 @@
               <a @click="decrementPopularity()" slot="icon" class="fas fa-heart-broken" style="color: #3490dc"></a>
             </vue-star>
           </div>
-          <div class="mx-4 my-auto">
+          <div v-if="!showForm" class="mx-4 my-auto">
             <small><i>{{ created_at }}</i></small>
           </div>
           <button v-if="!showForm" v-on:click="showForm = true" href="#" class="link-button float-right ml-auto mr-3">{{ showFormText }}</button>
