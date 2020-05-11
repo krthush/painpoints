@@ -1,0 +1,127 @@
+id,type,content,popularity,created_at,updated_at,_lft,_rgt,parent_id
+7,problem,"No friends/ companions for short term activities all the time - e.g. dinner tonight, movie tomorrow, shopping over the weekend, maybe even trying local shows etc",3,"2020-02-13 09:39:17","2020-03-09 00:22:24",1,2,NULL
+8,answer,"App that allows you to be generous to people around you",2,"2020-02-13 09:40:09","2020-02-14 13:03:13",3,4,NULL
+9,answer,"Interactive Hologram - 3D projection in the physical world, currently they are not really interactable",2,"2020-02-13 10:42:08","2020-02-13 20:31:06",5,6,NULL
+10,answer,"A suite of simple yet difficult mini games like flappy birds~
+
+my conclusion on viral mini games:
+
+never ending
+single player
+limited mechanics -> 1 to 2
+repetitive (in a way)
+challenging, but not due to bugged mechanics
+
+example: flappy bird, temple run, keyboard runner
+
+frequency of task/speed increase = somewhat a bugged mechanics => natural human limit (not as addictive)
+
+type: reactionary most certainly",9,"2020-02-13 11:13:18","2020-02-13 20:44:24",7,12,NULL
+11,problem,"Travelling through airports - hassle to queue long for security, have to check-in bags, can't carry above 100ml liquids on cheap flights.",5,"2020-02-13 11:30:45","2020-02-13 23:27:46",13,14,NULL
+12,answer,"@Pius - I was thinking of a sort of life simulator phone game app that lasts 100 turns. Idea is for game to be quickish - all you have each turn 4/5 options and can see how your life would pan out - based on parents you choose, education, lifestyle, career, romance, etc. But Thush a good point that this requires a crazy amount of frames + database of potential outcomes to be interesting - so maybe not realistic. Stephen",0,"2020-02-13 11:35:10","2020-02-13 11:35:10",8,11,10
+13,problem,"Micro-loneliness - when you want to do certain activities or are in middle something boring and your friends aren't available/present with you.
+
+E. g.s: 
+- When you get back home and want to see a movie but no one is free...
+- When you are traveling - like in the tube - and no one is with you",1,"2020-02-13 20:34:23","2020-02-13 21:08:55",15,16,NULL
+14,answer,"Yeah exactly. the idea would be great is all the paths are crowd sourced though",0,"2020-02-13 20:44:17","2020-02-13 20:44:17",9,10,12
+15,answer,"Music playlist/mood algorithm -> should make the whole process of organising music MUCH simpler. User should state some keywords, then the algorithm will display previously relating playlists to add the song. Worst case it should store that song under the those mood "tags". This would be perfect with voice assistant.",0,"2020-02-14 03:00:56","2020-02-14 03:00:56",17,20,NULL
+16,answer,"An App that makes the whole car rental experience (especially when abroad) MUCH smoother. Should require incredibly little paperwork/process. Along the lines of: person lands, app asks for photos (passport, license, etc.), then car is requested -> once selected, driver will bring car to user. Simpler/already exsisting: Turo, Zipcar, Drivy, etc.",0,"2020-02-14 03:01:29","2020-02-14 03:01:29",21,24,NULL
+17,answer,"An app that helps you collate/keep notes/ records what you finish in terms of books, movies, TV shows, anime, etc. for yourself only. Like a diary for entertainment.",0,"2020-02-14 03:01:43","2020-02-14 03:01:43",25,28,NULL
+18,answer,"Rapid data driven + automated A/B testing, of multiple user inputted ad copies, for things such as landing pages, FB ads, etc. Very simple UX + process.",0,"2020-02-14 03:01:59","2020-02-14 03:01:59",29,32,NULL
+19,answer,"Use machine learning/AI to just match the most optimum clothes for you, by taking images of you + measurements etc.",-4,"2020-02-14 03:02:08","2020-02-14 11:34:27",33,36,NULL
+20,answer,"My fitness Pal, but works with image recognition of food, so no need effort",-3,"2020-02-14 03:02:18","2020-02-14 03:11:33",37,40,NULL
+21,answer,"Flipper - language flipping messaging app. Users select preferred language then whenever they message each other message is automatically translated to selected language",2,"2020-02-14 03:02:25","2020-02-14 13:17:59",41,42,NULL
+22,answer,"USB interface/passby hack devices that gets what user is typing and transfers that over 5g/Bluetooth/etc",-2,"2020-02-14 03:02:33","2020-02-14 03:11:44",43,44,NULL
+23,answer,"App Idea - music sharer, share music with nearby phone users, play songs as a group, e.t.c. let's users listen to the song you are listening to. Listen to music from others near you while on the go.",0,"2020-02-14 03:02:44","2020-02-14 03:02:44",45,48,NULL
+24,answer,"Smart glasses, actions mapped to movement of eyeballs and blinking, with add-on headset for hearing related enhancements -> *problem* would need to "invent" see through glass panel which can have a display integrated as well. Weak solution -> have a display fixed to a camera instead, might cause issues to eyesight though. Solution 2 (good) have a projector reflect light off of glass. N.b integrate live information technology with glass idea (e.g. users able to get pop up info about what they look/hear at such as the song they are listening to or names of characters they see in a movie, e.t.c) -> (Paul miller from verge is a fan of this??)",-1,"2020-02-14 03:02:55","2020-02-14 11:40:02",49,54,NULL
+25,answer,""Movie starts" websites for when you miss the beginning of movies + website/app to help catogerize any memory, e.g. to remember movies",-1,"2020-02-14 03:03:30","2020-02-14 11:40:06",55,58,NULL
+26,answer,"Ergonimc book holder so user can easily read books with neck at ideal height for most positions",3,"2020-02-14 03:03:37","2020-02-14 11:31:20",59,62,NULL
+27,answer,"Website dedicated for touch screen games",0,"2020-02-14 03:03:45","2020-02-14 03:03:45",63,64,NULL
+28,answer,"Website where users of all professions can gather to share ideas/questions -> maybe have questions answered for money? Very specific website with lots of catorgories (I.e. finalized form will be an "easy to learn + navigate wikipedia") - including a answering system which will be easy to use and allow creation of well presented answers (interaction, animations, e.t.c) -> project infotree.com started -> make sure answering accounts can be verified by institutions, e.g unis vs. Lectures",0,"2020-02-14 03:03:55","2020-02-14 03:03:55",65,68,NULL
+29,answer,"Follow-on from infotree: crytopo based Q&A site - New/old idea from infotree - more mature version or crazy? dunno
+Build crypto based Q/A website aimed at university students first.
+- major point: counter than typical problem of uni students wanting to give out small ammounts of cash for well explained answers/tutoring.
+- sub point: let university lecs/teachers be admins so that there isn't just plain answer sharing.
+- every positive action mines crypto?",0,"2020-02-14 03:04:06","2020-02-14 03:04:06",66,67,28
+30,answer,"Risky travel insurance/planning company - let users experience life the way they want! E.g. be able to be protected (insurance, personal information held, gps emergency ring/bracelet, e.t.c, even followed/guided for more money) while living a different life, e.g. living poor in slums of India)",0,"2020-02-14 03:04:19","2020-02-14 03:04:19",69,70,NULL
+31,answer,"Rating website where all items are rated out of 10. Each item's rating of 10 is subdivided into multiple other subratings about the item's traits, these ratings can be priotised on the users preferences. E.g. for headhones, subratings would be comfort, sound quality, aesthetics, e.t.c (default will be what most users priotised things as - e.g. 50% sound quality 30% comfort 20% looks, but let's say a certain user wants 30% sound, 30% comfort and 40% looks,  they can change it). All subratings will (if possible) have 2 versions, a professional and general based rating, where the professional is usually scientifically/experimentally proven stat of the item summarised by a rating (by mainly experts - can be employed, or good user analysis) and general is just a users opinion on the item as a rating of 10.",0,"2020-02-14 03:04:29","2020-02-14 03:04:29",71,72,NULL
+32,answer,"Running/Excercise based augmented/VR game using phones/better technology (VR lenses like earlier idea) which gives incentive to users to exercise regularly by gamifying + making small achievable goals. Like Duolingo for excercise.",0,"2020-02-14 03:04:44","2020-02-14 03:04:44",73,74,NULL
+33,answer,"Clothing brand that is consistent with price + good quality, e.g. "tenner" all clothes under £10 OR "99" for everything for £99",0,"2020-02-14 03:04:54","2020-02-14 03:04:54",75,76,NULL
+34,answer,"Game hub, a chain of restaurant/social space/PC hub where people go to game and chill and eat!",0,"2020-02-14 03:05:00","2020-02-14 03:05:00",77,80,NULL
+35,answer,"Use unreal engine 4, to create a good survival RPG like youve always wanted. A finished one.",5,"2020-02-14 03:05:22","2020-02-14 11:33:23",81,84,NULL
+36,answer,"Website: songslikethis.co.uk, social website where users share song preferences, using variety of methods, same artist, genre, social groups, musical characteristics, e.t.c
+Shower pod: like a dishwasher but for humans",3,"2020-02-14 03:05:32","2020-02-14 11:33:31",85,88,NULL
+37,answer,"Trip self planner / check list app / time management app. Should use other people's data on timings to say if things are doable in given time frame etc. (Allow for user viewing pace adjustment etc)",0,"2020-02-14 03:05:39","2020-02-14 03:05:39",89,90,NULL
+38,answer,"Personal data collation application that tracks all of a user's social data that is held by external companies/also visible to the public",0,"2020-02-14 03:05:48","2020-02-14 03:05:48",91,92,NULL
+39,answer,"Automate laundry machine -> put clothes in, washes, then dries, then folds.",0,"2020-02-14 03:05:57","2020-02-14 03:05:57",93,94,NULL
+40,answer,"Cheap Fooder - a website that aggregates all diets + recipes, to tell you most cost + time effective meals for given ingredients",0,"2020-02-14 03:06:04","2020-02-14 03:06:04",95,96,NULL
+41,problem,"Tasks such as showering, brushing, etc. (self-care) as well as washing clothes, hovering, etc. (home-care) activities are generally very annoying and need to be done often.",7,"2020-02-14 03:09:55","2020-02-14 03:15:44",97,100,NULL
+42,problem,"Generally quite difficult to fix these tasks as they a "part of life" kind of problem, but maybe potential random solutions could work...",3,"2020-02-14 03:10:36","2020-02-14 03:15:58",98,99,41
+43,answer,"Companies already seem to be working on this...",4,"2020-02-14 03:11:08","2020-02-14 03:11:10",34,35,19
+44,answer,"Already being done by my fitness pal even...",3,"2020-02-14 03:11:31","2020-02-14 03:11:35",38,39,20
+45,problem,"General but often occuring painful experience with "dev enviroments"
+
+By this I mean the initial setup that is usually needed to be done before you get to the "coding". This can happen only just at the start of a project generally, or even repeatedly when starting a coding session.
+
+Examples of this include:
+- With Laravel projects, having to do an incredible amount of enviroment setup whenever starting a new project. Being a PHP framework, also requires a virtual machine for the server to run -> requires "booting up" a VM for every code session + running some startup scripts.
+- With Frontend work, often requires opening base page, with chrome inspect tools, running "npm run watch", etc.
+- With Apps (e.g. Android), requires annoying setup of enviroment for a new project, and then for code to be "tested", would always require build/hot reloading of an app on a connected phone/virtual device (this device also required a boot up)",10,"2020-02-14 04:27:06","2020-02-14 04:27:35",101,106,NULL
+47,problem,"I've had similar experiences working with desktop (e.g Windows) application and embedded/low level code as well...",0,"2020-02-14 04:37:19","2020-02-14 04:37:19",102,103,45
+48,answer,"Would need to also stream the songs though. Or Spotify api",0,"2020-02-14 07:51:55","2020-02-14 07:51:55",18,19,15
+49,answer,"Yup, already exists imo",0,"2020-02-14 07:52:30","2020-02-14 07:52:30",22,23,16
+50,answer,"Not sure this is something people want to do intensely",0,"2020-02-14 07:55:39","2020-02-14 07:55:39",26,27,17
+51,answer,"Already exists",0,"2020-02-14 07:56:00","2020-02-14 07:56:00",30,31,18
+52,answer,"Kinda like Spotify share or fb share of what you're listening to?",0,"2020-02-14 07:56:37","2020-02-14 07:56:37",46,47,23
+53,answer,"IMDb categories movies. Movie starts - only needed when in cinema, but don't think it's intense or frequent enough.",0,"2020-02-14 07:58:54","2020-02-14 07:58:54",56,57,25
+54,problem,"So another dev environment?",0,"2020-02-14 11:27:06","2020-02-14 11:27:06",104,105,45
+55,answer,"Google glasses couple of years back?",1,"2020-02-14 11:29:56","2020-02-14 13:19:36",50,53,24
+56,answer,"not bad~~ :)
+but look like it is a meme product",0,"2020-02-14 11:31:16","2020-02-14 11:31:16",60,61,26
+57,answer,"population density is too low in london/UK~~ We have a lot in hk",0,"2020-02-14 11:32:47","2020-02-14 11:32:47",78,79,34
+58,answer,"TBH if you can raise the money, I am down for it",0,"2020-02-14 11:33:21","2020-02-14 11:33:21",82,83,35
+59,answer,"can try",0,"2020-02-14 11:33:36","2020-02-14 11:33:36",86,87,36
+60,answer,"Multiple different standalone games on different platforms but telling a story altogether (NOT going into darkweb ofc)",1,"2020-02-14 11:36:43","2020-02-14 11:36:49",107,108,NULL
+61,answer,"Game on Lock Screen",5,"2020-02-14 11:40:57","2020-02-14 13:18:47",109,112,NULL
+62,answer,"A accurate sauce dispenser for cooking~~~
+eg. 10ml of soy sauce, 1 tea spoon of salt, etc
+apart from a pinch, most of them has a SI unit converion",2,"2020-02-14 11:57:08","2020-02-14 11:57:10",113,114,NULL
+63,answer,"Elaborate this one?",0,"2020-02-14 13:18:56","2020-02-14 13:18:56",110,111,61
+64,answer,"agree. Stephen",0,"2020-02-14 13:19:30","2020-02-14 13:19:30",51,52,55
+65,answer,"Politics app - easy app to help you figure what party/politician you support based on your views. Easy way to simplify all regulation / policies into actual bills that people are working on?",1,"2020-02-14 13:21:57","2020-02-14 13:22:01",115,116,NULL
+66,problem,"Social media causes anxiety / sadness when you compare your "normal / down" life moments vs others' feeds of awesomeness only.",14,"2020-02-14 18:34:54","2020-02-14 19:42:28",117,118,NULL
+67,answer,"Antidote to Instagram / Awesome-only social media app - An app that encourages you to post "sad / imperfect / no-filtered" moments only. 
+Posting incentive - get support and comfort from community that your "imperfect" life is fine and will get better. 
+ Scrolling incentive - Schadenfreude -  feel micro moment of relief / camaraderie when you see others having imperfect life moments. Allows you to feel okay about your own normalcy and maybe even encourages you to develop more empathy for others and reach out to them to be helpful?",4,"2020-02-14 18:43:00","2020-02-14 18:43:04",119,120,NULL
+68,problem,"Many do not drink enough fluid everyday, (35 to 40mL per kg per day)",1,"2020-02-16 23:49:48","2020-03-09 00:22:10",121,122,NULL
+69,problem,"Sometimes it feels like there is a mismatch between how often you want to keep in touch with your relationships vs. them wanting to keep in touch with you. 
+
+This can then lead to one side feeling like the relationship is deteriorating.
+
+See https://www.producthunt.com/ask/8081-what-are-the-best-apps-for-reminding-you-to-keep-in-contact-with-friends-and-family",20,"2020-02-17 19:30:45","2020-04-28 11:57:39",123,132,NULL
+70,problem,"Would be nice to have an app does reminders for this, like a personal CRM? 
+
+Seems like stuff for this already exists tho... Like plum contacts, dex app, garden etc.",5,"2020-02-17 19:36:23","2020-02-17 19:36:26",124,131,69
+71,problem,"See https://www.theatlantic.com/technology/archive/2019/11/personal-crm-software-uphabit-dex-google-spreadsheets/601531/",1,"2020-02-17 19:38:02","2020-02-17 21:26:48",125,130,70
+72,problem,"Any good all-in-one messenger platforms as I really struggle to keep up with friends and family across all different social media platforms (Twitter, Facebook, Whatsapp, LinkedIn etc). I've seen a few examples but they aren't great",3,"2020-02-18 19:40:29","2020-02-21 16:09:38",133,136,NULL
+73,problem,"Had a very neat idea to create a gamified experience for this (so similar to the apps above but with more incentive for users) - now not possible due to access to FB messenger / whatsapp / etc. being not possible at all - this actually kind of kills off all personal CRM apps such as Dex, Plum Contacts, etc. because automation of the most common personal messaging platforms is impossible. 
+
+Summary: 
+Have a home with a large plain of trees (user's choose their "close" friends to grow trees for), then if the user sticks to a goal they set (how often to stay in touch), the tree will be in either a state of blossoming, normal, or wilting/no leaves. The tree's also grow in size as the user messages the responding friends, so they also act as a method of giving an overview of who your close friends are.
+
+More discussion can be found in the facebook group, but due to the API flaw this idea is not practical.
+
+Resources:
+https://assetstore.unity.com/packages/3d/vegetation/trees/polygon-nature-pack-120152?fbclid=IwAR3cVWY1up-IpkQ-LpipD9j_Qja05PVfiZZxm4MNWE444rd-dfYjjmKTun4
+https://assetstore.unity.com/packages/3d/vegetation/trees/trees-variety-72855?fbclid=IwAR2DkhJDxOs1rKnN4gSGvG_SB_dQejq-Ujqu5TXMsLrLeBrPSiL9LL5JS8M
+https://github.com/Sunil02324/Facebook-Messages-Counter?fbclid=IwAR13BT2zW_st6lUCCifOKfYZbXDAtGOWT8fliinNrjUFzxDF7rEq3A_1hTE",6,"2020-02-21 15:48:49","2020-02-21 15:56:28",126,129,71
+74,problem,"Household chores such as taking the garbage out, doing the dishes, etc. are annoying",0,"2020-02-21 15:59:10","2020-02-21 15:59:10",137,138,NULL
+75,problem,"interesting - who is this from btw? Stephen",0,"2020-02-21 16:09:27","2020-02-21 16:09:27",134,135,72
+76,problem,"When you need somewhere nice/different to work at but you don't know which cafe is work friendly, lets you eat your own food there (if you buy their coffee or sth), open late etc. Maybe an app for finding the right type of cafe for working...",5,"2020-02-23 00:12:57","2020-02-23 02:34:49",139,140,NULL
+77,problem,"Found out that there is a possibility to get around this on Android phones - started project (http://nurtureapp.co.uk/). Apps such as Dex, Plum, etc. heavily rely on manual input, which we can avoid. These Apps also are very "impersonal" even though they are "personal CRMs", the gamification of keeping in touch using trees should make the app a lot more friendly/easy to adopt as a general social media user.",14,"2020-03-05 21:24:54","2020-03-05 21:24:59",127,128,73
+78,problem,"When creating artistic assets which vary slightly on certain attributes (examples include video game assets - e.g. changes by level, age, etc.), its incredibly annoying to have to MANUALLY export all these slightly different version from programs such as Photoshop, Illustrator, etc.
+
+The activity usually involves only changing a few Photoshop/Illustrator layers, colors, etc. and then exporting, then repeating and repeating for the different attributes. 
+
+Particularly facing this problem with having to create the different tree assets for the Nurture App project...",11,"2020-03-05 21:29:21","2020-03-05 21:29:25",141,142,NULL
